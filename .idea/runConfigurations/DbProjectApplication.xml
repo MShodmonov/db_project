@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DbProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="db_project" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="dreamteam.db_project.DbProjectApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

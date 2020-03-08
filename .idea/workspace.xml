@@ -1,8 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67e7f1ae-f175-4fcf-a4bc-90dc52e13400" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="67e7f1ae-f175-4fcf-a4bc-90dc52e13400" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/DbProjectApplication.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/component/DataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/ManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/NewProductJournalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Management.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/NewProductJournal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Paychecks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/PaymentTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/PriceJournal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/ProductUnits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/QuantityJournal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Roles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/SoldProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Stuffs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Suppliers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/ZReports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ManagementRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/NewProductJournalRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/OrdersRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/PaycheckRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/PaymentTypesRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/PriceJournalRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ProductCategoryRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ProductUnitRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/QuantityJournalRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/RolesRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/SoldProductsRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/StuffRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/SupplierRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ZReportRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/service/ManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c497492-3ac7-4fbf-a4dd-a5778bc55d7d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c497492-3ac7-4fbf-a4dd-a5778bc55d7d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/db_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +77,14 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <excluded-from-favorite>
@@ -42,60 +106,62 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/DreamTeamMarketDevelopment" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunManager">
-    <configuration name="DbProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="db_project" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="dreamteam.db_project.DbProjectApplication" />
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="DbProjectApplication" run_configuration_type="SpringBootApplicationConfigurationType" />
       </method>
     </configuration>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@363d88f4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@363d88f4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2486ad1" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:db@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:db@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@246b167f" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:PostgreSQL - postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -111,6 +177,16 @@
       <workItem from="1583250134351" duration="447000" />
       <workItem from="1583250601793" duration="529000" />
       <workItem from="1583297654341" duration="980000" />
+      <workItem from="1583312029144" duration="6085000" />
+      <workItem from="1583439243795" duration="6406000" />
+      <workItem from="1583448768229" duration="373000" />
+      <workItem from="1583449281980" duration="2568000" />
+      <workItem from="1583470578139" duration="39000" />
+      <workItem from="1583486478652" duration="1785000" />
+      <workItem from="1583497581045" duration="1204000" />
+      <workItem from="1583499535902" duration="697000" />
+      <workItem from="1583500645157" duration="1555000" />
+      <workItem from="1583647067799" duration="11552000" />
     </task>
     <task id="LOCAL-00001">
       <created>1583297924267</created>
@@ -126,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583297961992</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1583312065470</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583312065470</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +220,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -147,5 +232,103 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="439" y="190" key="#HTTP_Proxy" timestamp="1583500004156">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="439" y="190" key="#HTTP_Proxy/0.0.1680.1050@0.0.1680.1050" timestamp="1583500004156" />
+    <state x="434" y="190" width="811" height="669" key="#Project_Structure" timestamp="1583449384724">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="434" y="190" width="811" height="669" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1583449384724" />
+    <state x="304" y="139" width="1071" height="911" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583660602950">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="139" width="1071" height="911" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583660602950" />
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1583667528409">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1583667528409" />
+    <state x="552" y="215" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1583499660867">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="552" y="215" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583499660867" />
+    <state width="1638" height="349" key="GridCell.Tab.0.bottom" timestamp="1583661816990">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816990" />
+    <state width="1638" height="349" key="GridCell.Tab.0.center" timestamp="1583661816988">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816988" />
+    <state width="1638" height="349" key="GridCell.Tab.0.left" timestamp="1583661816987">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816987" />
+    <state width="1638" height="349" key="GridCell.Tab.0.right" timestamp="1583661816989">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816989" />
+    <state width="1638" height="349" key="GridCell.Tab.1.bottom" timestamp="1583661816993">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816993" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.23.1680.950@0.23.1680.950" timestamp="1583660891795" />
+    <state width="1638" height="349" key="GridCell.Tab.1.center" timestamp="1583661816992">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816992" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.23.1680.950@0.23.1680.950" timestamp="1583660891794" />
+    <state width="1638" height="349" key="GridCell.Tab.1.left" timestamp="1583661816991">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816991" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.23.1680.950@0.23.1680.950" timestamp="1583660891793" />
+    <state width="1638" height="349" key="GridCell.Tab.1.right" timestamp="1583661816992">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816992" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.23.1680.950@0.23.1680.950" timestamp="1583660891794" />
+    <state width="1638" height="349" key="GridCell.Tab.2.bottom" timestamp="1583661816995">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816995" />
+    <state width="1638" height="349" key="GridCell.Tab.2.center" timestamp="1583661816994">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816994" />
+    <state width="1638" height="349" key="GridCell.Tab.2.left" timestamp="1583661816993">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816993" />
+    <state width="1638" height="349" key="GridCell.Tab.2.right" timestamp="1583661816994">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="349" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583661816994" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1583655584374">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1583655584374" />
+    <state x="471" y="287" key="SpringBootCustomization" timestamp="1583451423029">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="471" y="287" key="SpringBootCustomization/0.0.1680.1050@0.0.1680.1050" timestamp="1583451423029" />
+    <state width="82" height="441" key="SqlResolveConfigurable" timestamp="1583451363009">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="82" height="441" key="SqlResolveConfigurable/0.0.1680.1050@0.0.1680.1050" timestamp="1583451363009" />
+    <state x="517" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1583647143708">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="517" y="346" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583647143708" />
+    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583449907240">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1583449907240" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1583662053473">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1583662053473" />
   </component>
 </project>
