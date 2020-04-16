@@ -1,76 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67e7f1ae-f175-4fcf-a4bc-90dc52e13400" name="Default Changelist" comment="First Restful api">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/musobekshodmonov.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/PaymentTypeContoller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/PriceJournalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/ProductCategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/ProductUnitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/QuantityJournalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/SoldProductsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/SuppliersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/ZReportsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/staffController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/payload/JwtAuthenticationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/payload/SignInRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/payload/SignUpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/security/CurrentUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/security/JwtTokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/security/MyAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/security/MySecurityContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/security/UserPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/service/StuffService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="67e7f1ae-f175-4fcf-a4bc-90dc52e13400" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/db_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/component/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/component/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/ManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/ManagementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/NewProductJournalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/NewProductJournalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/controllers/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Management.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/PaymentTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/PaymentTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/PriceJournal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/PriceJournal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/ProductCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/ProductCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/ProductUnits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/ProductUnits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/QuantityJournal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/QuantityJournal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Roles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/SoldProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/SoldProducts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Stuffs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Stuffs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Suppliers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Suppliers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/ZReports.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/model/ZReports.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ManagementRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ManagementRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/OrdersRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/OrdersRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/PaymentTypesRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/PaymentTypesRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/PriceJournalRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/PriceJournalRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ProductCategoryRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ProductCategoryRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ProductRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ProductUnitRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/ProductUnitRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/QuantityJournalRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/QuantityJournalRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/RolesRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/RolesRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/SoldProductsRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/SoldProductsRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/StuffRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/StuffRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/SupplierRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/SupplierRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/repository/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +173,7 @@
       <workItem from="1586322297132" duration="5515000" />
       <workItem from="1586846495064" duration="622000" />
       <workItem from="1587049547385" duration="903000" />
-      <workItem from="1587051934398" duration="464000" />
+      <workItem from="1587051934398" duration="723000" />
     </task>
     <task id="LOCAL-00001">
       <created>1583297924267</created>
@@ -271,7 +203,28 @@
       <option name="project" value="LOCAL" />
       <updated>1583667948990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="spring api with security jwt">
+      <created>1587058690764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587058690765</updated>
+    </task>
+    <task id="LOCAL-00006" summary="spring api with security jwt">
+      <created>1587058754174</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587058754174</updated>
+    </task>
+    <task id="LOCAL-00007" summary="spring api with security jwt">
+      <created>1587058762851</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587058762851</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +247,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="First Restful api" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Restful api" />
+    <MESSAGE value="spring api with security jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring api with security jwt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="192" key="#Assign_Data_Sources" timestamp="1586323508509">
@@ -322,10 +276,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="552" y="215" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583499660867" />
-    <state x="289" y="109" key="CommitChangelistDialog2" timestamp="1587058754091">
+    <state x="289" y="109" key="CommitChangelistDialog2" timestamp="1587058762759">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="109" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587058754091" />
+    <state x="289" y="109" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587058762759" />
     <state x="337" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585397924171" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587050556336">
       <screen x="0" y="0" width="1440" height="900" />
@@ -403,10 +357,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="82" height="441" key="SqlResolveConfigurable/0.0.1680.1050@0.0.1680.1050" timestamp="1583451363009" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587058699726">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587058765158">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587058699726" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587058765158" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1586284256309">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
