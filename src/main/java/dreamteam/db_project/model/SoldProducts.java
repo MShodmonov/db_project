@@ -29,5 +29,8 @@ public class SoldProducts {
     @Column(precision = 20,scale = 2)
     private Float cost;
 
-
+    public SoldProducts(SoldProducts soldProducts) {
+        this.quantity=soldProducts.getQuantity();
+        this.cost=soldProducts.getCost();
+    }
 }

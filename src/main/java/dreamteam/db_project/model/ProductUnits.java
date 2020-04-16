@@ -24,4 +24,8 @@ class ProductUnits {
 
     @Length(max = 100)
     private String name;
+
+    public ProductUnits(ProductUnits productUnits) {
+        this.name=productUnits.getName();
+    }
 }

@@ -37,4 +37,13 @@ class Stuffs {
     @Length(max = 20)
     private String phoneNumber;
 
+    public Stuffs( String fullName, String username,String password,String bioInfo, Roles roles, String phoneNumber) {
+
+        this.fullName = fullName;
+        this.username = username;
+        this.password = password;
+        this.bioInfo = bioInfo;
+        this.roles = roles;
+        this.phoneNumber = phoneNumber;
+    }
 }

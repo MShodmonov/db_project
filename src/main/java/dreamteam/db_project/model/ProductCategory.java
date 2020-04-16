@@ -22,4 +22,8 @@ public class ProductCategory {
 
     @Length(max = 100)
     private String name;
+
+    public ProductCategory(ProductCategory productCategory) {
+        this.name=productCategory.getName();
+    }
 }

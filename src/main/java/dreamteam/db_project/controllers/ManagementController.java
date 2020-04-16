@@ -26,8 +26,8 @@ public class ManagementController {
     }
 
 
-    @GetMapping("/management/{id}")
-    public HttpEntity<Management> getManagementById(@PathVariable String id)
+    @GetMapping("/managements/{id}")
+    public HttpEntity<Management> getManagementById(@PathVariable(name = "id") String id)
     {
         Optional<Management> optionalManagement = managementRepo.findById(UUID.fromString(id));
         if (optionalManagement.isPresent())
@@ -38,7 +38,7 @@ public class ManagementController {
 
     }
 
-    @DeleteMapping("/management/{id}")
+    @DeleteMapping("/managements/{id}")
     HttpEntity<Management> deleteManagementBYId(@PathVariable String id)
     {
         Optional<Management> optionalManagement = managementRepo.findById(UUID.fromString(id));
@@ -50,20 +50,21 @@ public class ManagementController {
         else return ResponseEntity.notFound().build();
     }
 
-    @PostMapping("/management")
+    @PostMapping("/managements")
     HttpEntity<Management> saveManagement(@RequestBody Management management)
     {
-            if (management.getId()== null)
+            if (management.getFullName()== null)
             {
                 return ResponseEntity.noContent().build();
             }
             else
             {
-                Management save = managementRepo.save(management);
+                Management model=new Management(management.getFullName(),management.getUsername(),management.getPassword(),management.getBioInfo());
+                Management save = managementRepo.save(model);
                 return ResponseEntity.status(HttpStatus.CREATED).body(save);
             }
     }
-    @PutMapping("/management/{id}")
+    @PutMapping("/managements/{id}")
     HttpEntity<Management> updateManagement(@RequestBody Management management,@PathVariable String id)
     {
         Optional<Management> optionalManagement = managementRepo.findById(UUID.fromString(id));
@@ -78,18 +79,18 @@ public class ManagementController {
             return ResponseEntity.status(HttpStatus.ACCEPTED).body(save);
         }
     }
-    @GetMapping("/management")
+    @GetMapping("/managements")
     HttpEntity<List<Management>> getManagementList()
     {
         return ResponseEntity.status(HttpStatus.CREATED).body(managementRepo.findAll());
     }
 
-    @GetMapping("/management/{fullName}")
+    @GetMapping("/managements/fullname/{fullName}")
     HttpEntity<List<Management>> findManagerByFullName(@PathVariable(name = "fullName") String name)
     {
         return ResponseEntity.ok(managementService.findManagersByName(name));
     }
-    @GetMapping("/manager/{username}")
+    @GetMapping("/managements/username/{username}")
     HttpEntity<Management> findManagerByUsername(@PathVariable(name = "username") String username)
     {
         Management managerByUsername = managementService.findManagerByUsername(username);

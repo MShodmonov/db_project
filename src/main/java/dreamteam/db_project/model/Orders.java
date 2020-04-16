@@ -42,6 +42,14 @@ class Orders {
     @Column(precision = 20,scale = 2)
     private Float totalVat;
 
-
-
+    public Orders(Orders orders) {
+        this.date=orders.getDate();
+        this.totalCost=orders.getTotalCost();
+        this.stuff=orders.getStuff();
+        this.isFavourite=orders.getIsFavourite();
+        this.discount=orders.getDiscount();
+        this.cardPayment=orders.cardPayment;
+        this.cashPayment=orders.getCashPayment();
+        this.totalCost=orders.getTotalCost();
+    }
 }

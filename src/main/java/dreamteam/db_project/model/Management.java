@@ -39,4 +39,11 @@ public class Management {
         this.password=password;
         this.bioInfo=bioInfo;
     }
+    public Management(String fullName, String username, String password, String bioInfo,Roles roles) {
+        this.fullName=fullName;
+        this.username=username;
+        this.password=password;
+        this.bioInfo=bioInfo;
+        this.roles=roles;
+    }
 }

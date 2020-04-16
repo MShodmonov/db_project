@@ -1,7 +1,6 @@
 package dreamteam.db_project.controllers;
 
 
-import dreamteam.db_project.model.Management;
 import dreamteam.db_project.model.NewProductJournal;
 import dreamteam.db_project.repository.NewProductJournalRepo;
 import org.springframework.http.HttpEntity;

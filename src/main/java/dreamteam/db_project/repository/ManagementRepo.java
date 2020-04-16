@@ -12,3 +12,5 @@ public interface ManagementRepo extends JpaRepository<Management, UUID> {
 
     Optional<Management> findByUsername(String username);
 }
+
+

@@ -60,5 +60,20 @@ class Products {
 
     private Integer vat;
 
+    public Products(Products products,ProductCategory productCategory, Suppliers suppliers,ProductUnits productUnits) {
+    }
 
+    public Products(@Length(max = 255) String productName, String description, Float fullName, @Length(max = 100) String barcode, Float quantity, Timestamp expirationTime, Integer discount, Integer favourite, Float extraQuantity, Float purchaseCost, Integer vat) {
+        this.productName = productName;
+        this.description = description;
+        this.fullName = fullName;
+        this.barcode = barcode;
+        this.quantity = quantity;
+        this.expirationTime = expirationTime;
+        this.discount = discount;
+        this.favourite = favourite;
+        this.extraQuantity = extraQuantity;
+        this.purchaseCost = purchaseCost;
+        this.vat = vat;
+    }
 }

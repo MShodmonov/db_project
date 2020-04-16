@@ -29,4 +29,11 @@ public class PriceJournal {
     private Timestamp editDate; ///========>
 
     private Boolean isIncreased;
+
+    public PriceJournal(PriceJournal priceJournal) {
+        this.oldPrice=priceJournal.getOldPrice();
+        this.newPrice=priceJournal.getNewPrice();
+        this.editDate=priceJournal.getEditDate();
+        this.isIncreased=priceJournal.getIsIncreased();
+    }
 }

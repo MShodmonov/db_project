@@ -29,4 +29,10 @@ public class Suppliers {
 
     @Length(max = 100)
     private String company;
+
+    public Suppliers(Suppliers suppliers) {
+        this.fullName=suppliers.getFullName();
+        this.phoneNumber=suppliers.getPhoneNumber();
+        this.company=suppliers.getCompany();
+    }
 }

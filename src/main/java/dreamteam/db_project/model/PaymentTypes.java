@@ -22,4 +22,8 @@ class PaymentTypes {
 
     @Length(max = 100)
     private String name;
+
+    public PaymentTypes(String name) {
+        this.name = name;
+    }
 }

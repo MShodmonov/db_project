@@ -36,6 +36,13 @@ class ZReports {
     @Column(precision = 20,scale = 2)
     private Float totalSaleVat;
 
-
-
+    public ZReports(ZReports zReports) {
+        this.countChecks = zReports.getCountChecks();
+        this.status = zReports.getStatus();
+        this.openDate = zReports.getOpenDate();
+        this.closeDate=zReports.getCloseDate();
+        this.totalSaleCash=zReports.getTotalSaleCash();
+        this.totalSaleCard=zReports.getTotalSaleCard();
+        this.totalSaleVat=zReports.getTotalSaleVat();
+    }
 }

@@ -9,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.io.Serializable;
 import java.util.UUID;
 
 @Entity
@@ -25,11 +26,15 @@ public class Roles {
 
     Boolean desktopAdmin;
 
-    Boolean biMonitoring;
+    Boolean isMonitoring;
 
     Boolean userManagement;
 
-
-
+    public Roles( String role, Boolean desktopAdmin, Boolean userManagement,Boolean isMonitoring) {
+        this.role=role;
+        this.desktopAdmin=desktopAdmin;
+        this.userManagement=userManagement;
+        this.isMonitoring=isMonitoring;
+    }
 
 }

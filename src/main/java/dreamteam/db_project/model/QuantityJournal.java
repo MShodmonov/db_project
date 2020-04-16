@@ -25,6 +25,8 @@ public class QuantityJournal {
 
     private Timestamp editDate;
 
-
-
+    public QuantityJournal(QuantityJournal quantityJournal) {
+        this.quantity=quantityJournal.getQuantity();
+        this.editDate=quantityJournal.getEditDate();
+    }
 }
