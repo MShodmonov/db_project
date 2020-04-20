@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="db_project:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="67e7f1ae-f175-4fcf-a4bc-90dc52e13400" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/db_project_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dreamteam/db_project/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +183,7 @@
       <workItem from="1587049547385" duration="903000" />
       <workItem from="1587051934398" duration="1116000" />
       <workItem from="1587192766811" duration="3754000" />
-      <workItem from="1587362544568" duration="432000" />
+      <workItem from="1587362544568" duration="2500000" />
     </task>
     <task id="LOCAL-00001">
       <created>1583297924267</created>
@@ -243,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587198325587</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="db_project.jar executable jar file to run in a single command">
+      <created>1587364954261</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587364954261</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +280,8 @@
     <MESSAGE value="First Restful api" />
     <MESSAGE value="spring api with security jwt" />
     <MESSAGE value="Springfox swagger documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Springfox swagger documentation" />
+    <MESSAGE value="db_project.jar executable jar file to run in a single command" />
+    <option name="LAST_COMMIT_MESSAGE" value="db_project.jar executable jar file to run in a single command" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="192" key="#Assign_Data_Sources" timestamp="1586323508509">
@@ -300,10 +313,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="552" y="215" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583499660867" />
-    <state x="289" y="109" key="CommitChangelistDialog2" timestamp="1587198325452">
+    <state x="289" y="109" key="CommitChangelistDialog2" timestamp="1587364953956">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="109" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587198325452" />
+    <state x="289" y="109" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587364953956" />
     <state x="337" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585397924171" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587200857045">
       <screen x="0" y="0" width="1440" height="900" />
@@ -382,10 +395,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="82" height="441" key="SqlResolveConfigurable/0.0.1680.1050@0.0.1680.1050" timestamp="1583451363009" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587198328441">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587364959371">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587198328441" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587364959371" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1586284256309">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
