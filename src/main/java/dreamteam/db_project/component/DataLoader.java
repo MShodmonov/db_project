@@ -45,7 +45,7 @@ public class DataLoader implements CommandLineRunner {
         Roles manager = rolesRepo.save(new Roles("ROLE_MANAGER", true, true, true));
 
         List<Roles>adminCollection=new LinkedList<>();
-        adminCollection.add(user);
+        adminCollection.add(admin);
 
         PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         Users save = userRepo.save(new Users("musobek",passwordEncoder.encode("12345"), "musobek", adminCollection));
