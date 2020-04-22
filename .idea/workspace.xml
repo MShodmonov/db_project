@@ -181,7 +181,7 @@
       <workItem from="1587049547385" duration="903000" />
       <workItem from="1587051934398" duration="1116000" />
       <workItem from="1587192766811" duration="3754000" />
-      <workItem from="1587362544568" duration="3938000" />
+      <workItem from="1587362544568" duration="4609000" />
     </task>
     <task id="LOCAL-00001">
       <created>1583297924267</created>
@@ -267,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587374378145</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="db_project.jar executable jar file to run in a single command">
+      <created>1587379437437</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587379437437</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,10 +332,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="552" y="215" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583499660867" />
-    <state x="289" y="109" key="CommitChangelistDialog2" timestamp="1587374378077">
+    <state x="289" y="109" key="CommitChangelistDialog2" timestamp="1587379437365">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="109" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587374378077" />
+    <state x="289" y="109" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587379437365" />
     <state x="337" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585397924171" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587200857045">
       <screen x="0" y="0" width="1440" height="900" />
@@ -407,10 +414,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="82" height="441" key="SqlResolveConfigurable/0.0.1680.1050@0.0.1680.1050" timestamp="1583451363009" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587374381410">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1587379439701">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587374381410" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587379439701" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1586284256309">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
