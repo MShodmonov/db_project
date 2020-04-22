@@ -8,6 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="67e7f1ae-f175-4fcf-a4bc-90dc52e13400" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/db_project_jar/db_project.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +184,7 @@
       <workItem from="1587051934398" duration="1116000" />
       <workItem from="1587192766811" duration="3754000" />
       <workItem from="1587362544568" duration="4609000" />
+      <workItem from="1587587125945" duration="467000" />
     </task>
     <task id="LOCAL-00001">
       <created>1583297924267</created>
@@ -332,10 +335,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="552" y="215" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583499660867" />
-    <state x="289" y="109" key="CommitChangelistDialog2" timestamp="1587379437365">
+    <state x="289" y="109" key="CommitChangelistDialog2" timestamp="1587587313349">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="109" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587379437365" />
+    <state x="289" y="109" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587587313349" />
     <state x="337" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585397924171" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587200857045">
       <screen x="0" y="0" width="1440" height="900" />
@@ -422,16 +425,16 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="840" height="525" key="XDebugger.FullValuePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1586284256309" />
-    <state x="443" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1587362544677">
+    <state x="443" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1587587126615">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="443" y="297" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587362544677" />
+    <state x="443" y="297" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587587126615" />
     <state x="517" y="346" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586322308533" />
     <state x="443" y="286" key="com.intellij.ide.util.TipDialog/0.23.1440.798@0.23.1440.798" timestamp="1587052079243" />
-    <state x="534" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587364907039">
+    <state x="534" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587587172831">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="534" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1587364907039" />
+    <state x="534" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1587587172831" />
     <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1583449907240" />
     <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1587362823518">
       <screen x="0" y="0" width="1440" height="900" />
